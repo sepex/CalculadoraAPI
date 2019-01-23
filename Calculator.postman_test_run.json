@@ -1,0 +1,50 @@
+{
+	"id": "58e3ca95-76d7-415e-946e-906f4ef32fc7",
+	"name": "Calculator",
+	"allTests": [],
+	"timestamp": "2019-01-23T00:18:11.991Z",
+	"collection_id": "e6ffc451-f6ff-4be4-ab31-60d446b144b8",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "050acc0f-4b24-4e83-be96-49b01fc0fff0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "e6ffc451-f6ff-4be4-ab31-60d446b144b8",
+		"name": "Calculator",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"b9ec81d3-9b13-41e0-b89d-b9f12331ef6e",
+			"36f0e808-b617-4340-bafb-fd35f306855c"
+		],
+		"folders_order": [],
+		"owner": "3394307",
+		"permissions": {},
+		"favorite": false,
+		"shared": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 0,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "Calcular Total=100 e Meses=5",
+			"id": "b9ec81d3-9b13-41e0-b89d-b9f12331ef6e",
+			"url": "",
+			"time": "2019-01-23T00:18:11.991Z",
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
