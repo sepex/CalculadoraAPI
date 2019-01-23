@@ -1,5 +1,5 @@
 # Serviços disponíveis na núvem
-<hr>
+
 As APIs disponíveis estão documentadas e disponível no padrão Swagger na página abaixo:
 
 [Swagger UI](https://calculadoraapi-dev.azurewebsites.net/index.html) .
@@ -7,10 +7,9 @@ As APIs disponíveis estão documentadas e disponível no padrão Swagger na pá
 Conforme pode ser observado na documentação Swagger, os serviços estão disponíveis nos caminhos listados abaixo:
 
 https://calculadoraapi-dev.azurewebsites.net/api/calculadora/calculajuros
-https://calculadoraapi-dev.azurewebsites.net/api/calculadora/ShowMeTheCode
+<br>https://calculadoraapi-dev.azurewebsites.net/api/calculadora/ShowMeTheCode
 
 # Testes Automatizados
-<hr>
 
 ## Testes Unitários Automatizados
 
