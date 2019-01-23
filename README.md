@@ -22,7 +22,7 @@ Foram desenvolvidos testes unitários utilizando a framework MSTest e Live Unit 
 
 Está disponível no arquivo abaixo o projeto de testes desenvolvido em Postman, com os cenários de teste considerados necessários para abrangência de todas as regras de negócio e pontos de falha do sistema.
 
-[Projeto de Testes de Integração](https://lucaspsepe.visualstudio.com/_git/CalculadoraPrj?path=%2FCalculator.postman_test_collection.json&version=GBmaster) 
+[Projeto de Testes de Integração](https://github.com/sepex/CalculadoraAPI/blob/master/Calculator.postman_test_run.json) 
 
 ![](https://lucaspsepe.visualstudio.com/826de35e-83a4-4c4c-9d53-3d860133fd8f/_apis/git/repositories/8bb9e253-c06b-4e5c-b47b-b5f17dc6932b/Items?path=%2F.attachments%2Fimage-ad073828-fdf4-401b-bdc6-bc197774e0cf.png)
 
