@@ -45,7 +45,7 @@ namespace Calculadora.API
           {
             Email = "lucaspsepe@gmail.com",
             Name = "Lucas Peixoto Sepe",
-            Url = "https://lucaspsepe.visualstudio.com/CalculadoraPrj"// TODO - Alterar para o projeto Git
+            Url = "https://github.com/sepex/CalculadoraAPI"// TODO - Alterar para o projeto Git
           }
         });
       });
