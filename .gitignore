@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Calculadora.API/v15/Server/sqlite3
+/Calculadora.API/obj
+/Calculadora.API/Calculadora.API/obj/Docker
+/Calculadora.API/bin
+/Calculadora.API/Properties/PublishProfiles
+/Calculadora.API.Test/obj
+/Calculadora.API.Test/bin/Debug
+/obj
+/TestResults

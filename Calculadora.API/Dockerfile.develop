@@ -1,0 +1,15 @@
+FROM microsoft/dotnet:2.1-sdk
+ARG BUILD_CONFIGURATION=Debug
+ENV ASPNETCORE_ENVIRONMENT=Development
+ENV DOTNET_USE_POLLING_FILE_WATCHER=true
+EXPOSE 53773
+
+WORKDIR /src
+COPY ["Calculadora.API/Calculadora.API.csproj", "Calculadora.API/"]
+
+RUN dotnet restore "Calculadora.API/Calculadora.API.csproj"
+COPY . .
+WORKDIR "/src/Calculadora.API"
+RUN dotnet build --no-restore "Calculadora.API.csproj" -c $BUILD_CONFIGURATION
+
+ENTRYPOINT ["dotnet", "run", "--no-build", "--no-launch-profile", "-c", "$BUILD_CONFIGURATION", "--"]
